@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.information-column{
+    padding: 40px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.information-column hr {
+    display: block;
+    border: none;
+    margin-top: 18px;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-color: limegreen;
+  }
+  .information-column img{
+    width: 300px;
+    height: 300px;
+    border-radius: 130px;
+    border: 1px solid limegreen;
+    margin-bottom: 18px; 
+}
+.information-column h3 {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.information-column ul {
+    list-style-type: none;
+}
+
+.information-column li {
+    text-align: left; 
+    margin: 10px 0;
+}
+.contact-description a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-description i{
+    color: limegreen;
+    margin-right: 10px;
+}
+
+.education-description {
+    margin-top: 32px;
+}
+
+.education-description p{
+    color: #008000;
+}
+
+.language-description .percent{
+    height: 6px;
+    background-color: #008000;
+    margin-top: 5px;
+    width: 250px;
+}
+
+.language-description .percent div{
+    height: 6px;
+    background-color: #32CD32;
+}
+
+.language-description .percent.english div{
+    width:60%;
+}
+
+.language-description .percent.spanish div{
+    width:70%;
+}
