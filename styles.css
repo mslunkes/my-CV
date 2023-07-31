@@ -27,9 +27,9 @@
     border-color: limegreen;
   }
   .information-column img{
-    width: 300px;
-    height: 300px;
-    border-radius: 130px;
+    width: 250px;
+    height: 250px;
+    border-radius: 100px;
     border: 1px solid limegreen;
     margin-bottom: 18px; 
 }
@@ -81,7 +81,7 @@
 }
 
 .language-description .percent.spanish div{
-    width:70%;
+    width:65%;
 }
 .experiences-column{
     background-color: #FFF;
@@ -129,4 +129,19 @@
 }
 .experiences-column section{
     text-align:justify;
+}
+
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+    }
+    .experiences-column .experiences{
+        display: flex;
+    }
+
+    .experiences-date {
+        width: 250px;
+        font-size: smaller;
+        text-align:center;
+    }
 }
